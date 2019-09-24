@@ -1,1 +1,3 @@
-If you can read me, I am not a program!
+This repository contains assignments related to Intermediate Python Programming.
+
+All programs can be run by using "python (filename.py)"
