@@ -15,4 +15,4 @@ def test_is_integer():
     raised. Write the appropriate code to solve this and then commit the changes.
     """
     with pytest.raises(ValueError):
-        generate_prime_factors("hello")
+        generate_prime_factors("test")
