@@ -69,3 +69,14 @@ def test_factor_six():
     generate_prime_factors(6)
 
     assert generate_prime_factors(6) == [2, 3]
+
+def test_factor_eight():
+    """
+    ### Step 7:
+    Write a test that asserts that when `generate_prime_factors` is called with
+    `8`, the list `[2, 2, 2]` is returned. Solve & commit.
+    """
+
+    generate_prime_factors(8)
+
+    assert generate_prime_factors(8) == [2, 2, 2]
