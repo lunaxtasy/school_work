@@ -26,3 +26,13 @@ def test_empty_list():
     generate_prime_factors(1)
 
     assert generate_prime_factors(1) == []
+
+def test_list_of_two():
+    """
+    ### Step 3:
+    Write a test that asserts that when `generate_prime_factors` is called with
+    `2`, the list `[2]` is returned. Solve & commit.
+    """
+    generate_prime_factors(2)
+
+    assert generate_prime_factors(2) == [2]
