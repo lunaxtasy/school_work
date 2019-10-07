@@ -13,3 +13,11 @@ def generate_prime_factors(unprime):
 
     if isinstance(unprime, int) is False:
         raise ValueError
+
+    factors = []
+
+    #for calls of 1, which is not prime
+    while unprime == 1:
+        break
+
+    return factors

@@ -16,3 +16,13 @@ def test_is_integer():
     """
     with pytest.raises(ValueError):
         generate_prime_factors("test")
+
+def test_empty_list():
+    """
+    ### Step 2:
+    Write a test that asserts that when `generate_prime_factors` is called with
+    `1`, an empty list is returned. Solve & commit.
+    """
+    generate_prime_factors(1)
+
+    assert generate_prime_factors(1) == []
