@@ -4,6 +4,7 @@ sudo: required
 dist: xenial
 install:
   - pip install -r requirements.txt
+  - pip install pylint
 script:
   - pytest -v
   - find . -name '*.py' | xargs pylint
