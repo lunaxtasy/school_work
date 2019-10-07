@@ -36,3 +36,14 @@ def test_list_of_two():
     generate_prime_factors(2)
 
     assert generate_prime_factors(2) == [2]
+
+def test_list_of_three():
+    """
+    ### Step 4:
+    Write a test that asserts that when `generate_prime_factors` is called with
+    `3`, the list `[3]` is returned. Solve & commit.
+    """
+
+    generate_prime_factors(3)
+
+    assert generate_prime_factors(3) == [3]

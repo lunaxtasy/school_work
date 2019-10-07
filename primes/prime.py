@@ -22,8 +22,10 @@ def generate_prime_factors(unprime):
     #for calls of 2, which is prime
     else:
         i = 2
-        if i == unprime:
-            if unprime % i == 0: #checking that the remainder is 0
+        while i <= unprime:
+            if (unprime % i) == 0: #checking that the remainder is 0
                 factors.append(i)
+            else:
+                i += 1
 
     return factors
