@@ -21,11 +21,11 @@ def generate_prime_factors(unprime):
         break
     #for calls of 2, which is prime
     else:
-        for x in range(2, unprime + 1):
-            if (unprime % x) == 0: #checking that the remainder is 0
-                factors.append(x)
-                unprime = unprime // x
+        for prime_fac in range(2, unprime + 1):
+            if (unprime % prime_fac) == 0: #checking that the remainder is 0
+                factors.append(prime_fac)
+                unprime = unprime // prime_fac
             else:
-                x += 1
+                prime_fac += 1
 
     return factors
