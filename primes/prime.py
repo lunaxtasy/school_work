@@ -1,4 +1,6 @@
 """
+Assignment 3 - Prime Factors
+
 prime.py -- Write the application code here
 """
 
