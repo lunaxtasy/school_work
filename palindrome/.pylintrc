@@ -1,3 +1,0 @@
-[pylintrc]
-# R0903: too few many public methods
-disable=R0903
