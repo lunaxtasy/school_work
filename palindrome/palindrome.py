@@ -1,3 +1,9 @@
+"""
+Assignment 4: Palindrome checker
+
+Palindrome checker main module
+"""
+
 def is_palindrome(word):
     """
     This function checks to see if an entered string is a palindrome or not.
